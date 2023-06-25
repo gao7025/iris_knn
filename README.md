@@ -5,6 +5,8 @@ K-NearestNeighbor
 Nearest Neighbors官方网址：
 https://scikit-learn.org/stable/modules/neighbors.html
 
+GitHub文档地址：https://github.com/gao7025/iris_knn
+
 ## **2.工作原理**
 KNN是通过测量不同特征值之间的距离进行分类。它的思路是：K个最近的邻居，每个样本都可以用它最接近的K个邻居来代表，如果一个样本在特征空间中的k个最相似(即特征空间中最邻近)的样本中的大多数属于某一个类别，则该样本也属于这个类别，并具有这个类别上样本的特征， KNN算法的结果很大程度取决于K的选择，其中K通常是不大于20的整数。距离有很多种计算方法，一般使用欧氏距离或曼哈顿距离即可。
                       
